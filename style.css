@@ -7,7 +7,7 @@ nav {
   background-color: #3499f1;
 }
 nav.top-nav {
-  background: rgb(12, 12, 12);
+  background: #333333;
   color: white;
 }
 .peragraph {
@@ -286,6 +286,10 @@ button.rocket {
 .social {
   font-size: 30px;
   color: #797979;
+  transition: 0.3s;
+}
+.social:hover{
+  transform: rotate(360deg);
 }
 .col-6.bottom-menu ul li {
   text-decoration: none;
