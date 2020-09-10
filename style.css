@@ -87,7 +87,7 @@ nav.top-nav {
 }
 h1.text-center.service-header::after {
   content: "";
-  background-color: #e3e3e5;
+  background: repeating-linear-gradient( -45deg, #fff 0px, #fff 5px, #dcdcdc 6px, #dcdcdc  11px, #eae9e9 12px);
   height: 6px;
   display: block;
   width: 239px;
@@ -122,7 +122,7 @@ h1.text-center.service-header::after {
 
 h1.recent-header::after {
   content: "";
-  background-color: #e3e3e5;
+  background: repeating-linear-gradient( -45deg, #fff 0px, #fff 5px, #dcdcdc 6px, #dcdcdc  11px, #eae9e9 12px);
   height: 6px;
   display: block;
   width: 260px;
@@ -165,7 +165,7 @@ h1.recent-header::after {
 }
 .clint-content h1::after {
   content: "";
-  background-color: #e3e3e5;
+  background: repeating-linear-gradient( -45deg, #fff 0px, #fff 5px, #dcdcdc 6px, #dcdcdc  11px, #eae9e9 12px);
   height: 6px;
   display: block;
   width: 239px;
@@ -200,7 +200,7 @@ h1.recent-header::after {
 }
 .latest-news-header::after {
   content: "";
-  background-color: #e3e3e5;
+  background: repeating-linear-gradient( -45deg, #fff 0px, #fff 5px, #dcdcdc 6px, #dcdcdc  11px, #eae9e9 12px);
   height: 6px;
   display: block;
   width: 239px;
@@ -251,6 +251,7 @@ a.menu-items {
 }
 .post-line::after {
   content: "";
+  
   background-color: #e3e3e5;
   height: 1px;
   display: block;
